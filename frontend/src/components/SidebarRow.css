@@ -1,0 +1,49 @@
+li {
+    list-style-type: none;
+}
+
+.row-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: lightgray;
+  transition: color 0.3s;
+}
+
+.row-button:hover {
+  color: white;
+}
+
+input {
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar-row {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.sidebar-row:hover,
+.sidebar-row.selected {
+  background-color: rgb(102, 105, 116);
+}
+
+.row-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+}
+  
+.button-container {
+  display: flex;
+  gap: 0px;
+}
