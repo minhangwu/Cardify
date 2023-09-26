@@ -1,0 +1,36 @@
+.switch-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+/* Content.css */
+
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .app-container {
+    max-width: 1200px; /* Set a maximum width for the content container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-collection-selected {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+  }
+  

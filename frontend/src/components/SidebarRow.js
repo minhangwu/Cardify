@@ -56,6 +56,7 @@ function SidebarRow({ collection, isSelected, onSelect, onSave, onDelete }) {
       {isEditing ? (
         <div className='row-content'>
           <input
+            className='row-editing'
             autoFocus
             onBlur={handleBlur}
             value={newName}

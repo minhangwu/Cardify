@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 import axios from "axios";
 import SidebarRow from "./SidebarRow";
-import AddIcon from "@mui/icons-material/Add";
 
 const collectionApi = axios.create({
   baseURL: "http://127.0.0.1:8000/api/collections",
